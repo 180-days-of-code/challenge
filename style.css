@@ -1,0 +1,49 @@
+/*center all elements*/
+
+html, body {
+	text-align: center;
+}
+
+
+
+
+
+
+/*footer*/
+
+.footer {
+	font-weight: bold;
+	position: absolute;
+	text-align: center;
+	margin-top: 50px;
+	top: 100%;
+	right: 0;
+    left: 0;
+	bottom: 0; 
+}
+#b{ 
+	font-family: 'Caveat Brush', cursive;
+	font-size: 20px;
+	font-weight: 500;
+}
+.container {
+/*	width: auto;*/
+	min-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.container {
+	display: block;
+	position: relative;
+	padding: 10px auto;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#hideshow {
+	color: aliceblue;
+	text-decoration: none;
+}
+
+
