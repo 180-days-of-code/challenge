@@ -2,12 +2,32 @@
 
 html, body {
 	text-align: center;
+	min-height: 100%;
 }
 
+#title{
+	background-color: #006400;
+	color: #fff;
+	padding: 12px 0; 
+	margin-bottom: 12%;
+}
 
-
-
-
+#leader-board{
+	text-align: center;
+	background-color: #974B0F;
+	color: #fff;
+	border: solid 1px silver;
+}
+.leader-table{
+  font-size: 1.2em
+  margin-top: 3%
+  border: solid 1px silver
+  td:nth-child(3),
+  td:nth-child(4),
+  th:nth-child(3),
+  th:nth-child(4),
+    text-align: center
+}
 
 /*footer*/
 
@@ -46,4 +66,8 @@ div.container {
 	text-decoration: none;
 }
 
-
+.profile-pic{
+  width: 45px;
+  height: 45px;
+  border: solid 1px black;
+}
