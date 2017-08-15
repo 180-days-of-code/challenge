@@ -4,9 +4,16 @@ html, body,{
 	text-align: center;
 	color: gold;
 }
+
+body{
+	background: url("http://theartmad.com/wp-content/uploads/Light-Grey-Background-Design-3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 /*title*/
 .title {
 	text-align: center;
+	padding: 5px 0px 25px 0px;
 }
 
 /*navbar list*/
@@ -27,9 +34,27 @@ html, body,{
 	float: left;
 	display: block;
 	text-align: : justify;
-	padding-top: 250px;
-	padding-left: 15%;
+	padding-top: 350px;
+	padding-left: 10%;
 	text-align: center;
+	color: green;
+
+}
+
+
+#ltc {
+	height: 250px;
+	width: 250px;
+}
+
+#mf {
+	height: 250px;
+	width: 250px;
+}
+
+#ge {
+	height: 250px;
+	width: 250px;
 }
 
 /*footer*/
