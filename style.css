@@ -2,10 +2,11 @@
 
 html, body,{
 	text-align: center;
+	color: gold;
 }
 
-h1 {
-	margin: auto;
+.title {
+	text-align: center;
 }
 
 /*navbar list*/
