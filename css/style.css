@@ -15,7 +15,8 @@ html, body {
 i{
 	color: #ccc;
 }
-h1{
+.leader{
+  background-color: #974B0F;	
   font-size: 30px;
   color: #fff;
   text-transform: uppercase;
@@ -28,7 +29,7 @@ table{
   table-layout: fixed;
 }
 .tbl-header{
-  background-color: #974B0F
+  background-color: #974B0F;
  }
 .tbl-content{
   color: darkslateblue;
@@ -38,7 +39,7 @@ table{
   border: 1px solid rgba(255,255,255,0.3);
 }
 th{
-  padding: 20px 15px;
+  padding: 8px 10px 8px 5px;
   text-align: left;
   font-weight: 700;
   font-size: 12px;
@@ -52,8 +53,6 @@ td{
   vertical-align:middle;
   font-weight: 600;
   font-size: 12px;
-  background-color: green;
-  color: #fff;
   border-bottom: solid 1px rgba(255,255,255,0.1);
 }
 
