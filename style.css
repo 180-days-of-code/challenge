@@ -4,23 +4,33 @@ html, body,{
 	text-align: center;
 	color: gold;
 }
-
+/*title*/
 .title {
 	text-align: center;
 }
 
 /*navbar list*/
-.navList ul {
-	list-style: none;
+.navbar .navbar-inner{
+	padding: 0;
+}
+
+.navbar .nav {
+	margin: 0;
+	display: inline-block;
+	width: 100%;
+}
+
+/*images*/
+
+
+.learnToCode, .makeFriends, .gainExp {
+	float: left;
+	display: block;
+	text-align: : justify;
+	padding-top: 250px;
+	padding-left: 15%;
 	text-align: center;
 }
-/*navbar list items*/
-.navList ul li{
-	display: inline-block;
-}
-
-
-
 
 /*footer*/
 
