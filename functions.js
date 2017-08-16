@@ -58,7 +58,9 @@ var dataSet = [
 ];
  
 $(document).ready(function() {
+	
     $('#example').DataTable( {
+		responsive: true,
         data: dataSet,
         columns: [
             { title: "Name" },
@@ -69,6 +71,7 @@ $(document).ready(function() {
             { title: "Salary" }
         ]
     } );
+	
 } );
 
   
