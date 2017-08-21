@@ -18,9 +18,6 @@ font-family: ‘Sedgwick Ave Display’, cursive;
 font-family: ‘Gloria Hallelujah’, cursive;
 }
 /*navbar list*/
-.nav-list{
-	
-}
 .navbar .nav {
 	margin: 0 auto;
 	display: inline-block;
@@ -34,7 +31,9 @@ font-family: ‘Gloria Hallelujah’, cursive;
 	width: 250px;
 	 margin: 0 auto;
 }
-
+.makeFriends{
+	margin: 20px auto;
+}
 /*footer*/
 
 #b{ 
