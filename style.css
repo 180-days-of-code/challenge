@@ -12,10 +12,15 @@ html, body{
 .title {
 	text-align: center;
 /*	padding: 5px 0px 25px 0px;*/
+font-family: ‘Sedgwick Ave Display’, cursive;
 }
-
+.img-title{
+font-family: ‘Gloria Hallelujah’, cursive;
+}
 /*navbar list*/
-
+.nav-list{
+	
+}
 .navbar .nav {
 	margin: 0 auto;
 	display: inline-block;
@@ -38,10 +43,8 @@ html, body{
 	font-weight: 500;
 }
 .container {
-/*	width: auto;*/
 	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 }
 
 .btn-social{
