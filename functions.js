@@ -31,6 +31,7 @@ var current = '<a href="#"><p>portfolio</p></a>';
 var next = '<a href="https://www.facebook.com/groups/1889829428005992/permalink/1894852707503664/"><p>week 2</p></a>';
 var greatJob = '<p class="success">Great job! 100%</p>';
 var dataSet = [
+	[ "<img src='img/180-days.jpg' class='leader-img'/>", "<p>MEAN Team</p>", current, next, greatJob],
 	[ "<img src='img/180-days.jpg' class='leader-img'/>", "<p>CodeBeast</p>", current, next, greatJob],
 	[ "<img src='img/180-days.jpg' class='leader-img'/>", "<p>Creative Dev</p>", current, next, greatJob],
 	[ "<img src='img/180-days.jpg' class='leader-img'/>", "<p>DevLogics</p>", current, next, greatJob],
