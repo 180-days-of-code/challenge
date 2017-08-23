@@ -6,9 +6,12 @@
 
 header{
 	text-align:center;
-	background:url("https://images.unsplash.com/photo-1473447216727-44efba8cf0e0?");
-	background-size:cover;
-	height:800px; 
+	background:url("/img/180dayslogo1.png");
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	height: 800px ;
+	max-width: 100%; 
 }
 header .container{padding-top:100px;padding-bottom:50px}header img{display:block;margin:0 auto 20px}
 header .intro-text .name{
