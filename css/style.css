@@ -1,16 +1,8 @@
 @charset "UTF-8";
 /*center all elements*/
-html,
-body {
-  text-align: center;
-  background: url("https://i0.wp.com/timmatic.com/i/2016/11/website-background-images-tile-wallpaper-photo.jpg?resize=525%2C295");
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 100%;
-}
-
 .page-title {
   font-size: 3rem;
+  text-align: center;
 }
 
 .img-title {
@@ -25,6 +17,15 @@ footer {
 
 .mid-section {
   margin-top: 20vh;
+}
+
+.quote {
+  font-size: 2rem;
+}
+
+.quote-box {
+  padding-top: 10vh;
+  text-align: center;
 }
 
 /*navbar list*/
