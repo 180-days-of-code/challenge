@@ -9,20 +9,22 @@ body {
   max-width: 100%;
 }
 
-.title {
-  text-align: center;
-  /*	padding: 5px 0px 25px 0px;*/
-  font-family: ‘Sedgwick Ave Display’, cursive;
-}
-
-#title {
-  background-color: #006400;
-  color: #fff;
-  padding: 12px 0;
+.page-title {
+  font-size: 3rem;
 }
 
 .img-title {
   font-family: ‘Gloria Hallelujah’, cursive;
+}
+
+footer {
+  margin-top: 10vh;
+  bottom: 0;
+  width: 100%;
+}
+
+.mid-section {
+  margin-top: 20vh;
 }
 
 /*navbar list*/
@@ -51,11 +53,6 @@ i {
   margin: 0 auto;
 }
 
-.makeFriends {
-  margin: 20px auto;
-}
-
-/*footer*/
 #b {
   font-family: 'Caveat Brush', cursive;
   font-size: 20px;
