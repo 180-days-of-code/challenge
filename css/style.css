@@ -1,16 +1,32 @@
 /*center all elements*/
 
-html, body {
+html, body{
 	text-align: center;
-	min-height: 100%;
-	
-  font-family: 'Roboto', sans-serif;
+	background: url("https://i0.wp.com/timmatic.com/i/2016/11/website-background-images-tile-wallpaper-photo.jpg?resize=525%2C295");
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+}
+
+.title {
+	text-align: center;
+/*	padding: 5px 0px 25px 0px;*/
+font-family: ‘Sedgwick Ave Display’, cursive;
 }
 
 #title{
 	background-color: #006400;
 	color: #fff;
 	padding: 12px 0; 
+}
+.img-title{
+font-family: ‘Gloria Hallelujah’, cursive;
+}
+/*navbar list*/
+.navbar .nav {
+	margin: 0 auto;
+	display: inline-block;
+	max-width: 100%;
 }
 i{
 	color: #ccc;
@@ -23,6 +39,87 @@ i{
 	float: left;
 	position: relative;
 }
+
+.mf {
+	min-height: 250px;
+	width: 250px;
+	 margin: 0 auto;
+}
+.makeFriends{
+	margin: 20px auto;
+}
+/*footer*/
+
+#b{ 
+	font-family: 'Caveat Brush', cursive;
+	font-size: 20px;
+	font-weight: 500;
+}
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.btn-social{
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	display:inline-block;
+	border:1px solid grey;
+	border-radius:50%;
+	text-align:center;
+    font-size:28px;
+	line-height:31px;
+	padding:4px;
+}
+
+.btn-social {
+	transform: scale(1.2);
+}
+
+.fa-facebook:hover{
+	 transform: scale(1.2);
+	 color: #3b5998
+}
+
+.fa-twitter:hover {
+	transform: scale(1.2);
+	color: #00b6f1;
+}
+
+.fa-github:hover {
+	transform: scale(1.2);
+	color: #6e5494;
+}
+
+.social-media{
+	margin:0 auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .mf {
+	min-height: 200px;
+	width: 200px;
+	margin: 0 auto;
+}
+	.title {
+	text-align: center;
+    font-size: 26px;		
+}
+}
+
+@media only screen and (max-width: 500px) {
+    .mf {
+	min-height: 150px;
+	width: 150px;
+	margin: 0 auto;
+}
+   .title {
+	text-align: center;
+    font-size: 22px;		
+}	
+}
+
 .leader{
   background-color: #974B0F;	
   font-size: 30px;
@@ -35,37 +132,6 @@ i{
 .display-none{
 	display: none;
 }
-/*table{
-  width:100%;
-  table-layout: fixed;
-}
-.tbl-header{
-  background-color: #974B0F;
- }
-.tbl-content{
-  color: darkslateblue;
-  height:300px;
-  overflow-x:auto;
-  margin-top: 0px;
-  border: 1px solid rgba(255,255,255,0.3);
-}
-th{
-  padding: 8px 10px 8px 5px;
-  text-align: left;
-  font-weight: 700;
-  font-size: 12px;
-  color: #fff;
-  text-transform: uppercase;
-}
-td{
-  letter-spacing: .5px;	
-  padding: 15px;
-  text-align: left;
-  vertical-align:middle;
-  font-weight: 600;
-  font-size: 12px;
-  border-bottom: solid 1px rgba(255,255,255,0.1);
-}*/
 
 .leader-img{
 	max-width:60px;
