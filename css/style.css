@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/*center all elements*/
 .page-title {
   font-size: 3rem;
   text-align: center;
@@ -28,6 +27,10 @@ footer {
   text-align: center;
 }
 
+.footer-below {
+  background: #ffff11;
+}
+
 /*navbar list*/
 .navbar .nav {
   margin: 0 auto;
@@ -40,13 +43,12 @@ i {
 }
 
 #home-button {
-  margin: 10px 0;	
+  margin-left: 10px;
   border-radius: 50%;
   padding: 2px;
+  left: 5px;
   float: left;
-  position: absolute;
-  height:50px;
-  width:50px;	
+  position: relative;
 }
 
 .mf {
@@ -56,7 +58,7 @@ i {
 }
 
 #b {
-  font-family: 'Caveat Brush', cursive;
+  font-family: "Caveat Brush", cursive;
   font-size: 20px;
   font-weight: 500;
 }
@@ -130,7 +132,7 @@ i {
   font-size: 30px;
   color: #fff;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   margin-bottom: 15px;
 }
@@ -184,12 +186,6 @@ section {
   bottom: 0;
 }
 
-#b {
-  font-family: 'Caveat Brush', cursive;
-  font-size: 20px;
-  font-weight: 500;
-}
-
 .container {
   /*	width: auto;*/
   min-width: 100%;
@@ -228,14 +224,6 @@ div.container {
   section {
     margin: 35px;
   }
-  #home-button {
-  height: 35px;
-  width: 35px;	  
-  border-radius: 50%;
-  padding: 1px;
-  float: left;
-  position: relative;
-}	
 }
 
 @media only screen and (max-width: 400px) {

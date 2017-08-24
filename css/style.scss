@@ -1,12 +1,20 @@
-/*center all elements*/
-
+// declared sass variables
+$image-font:‘Gloria Hallelujah’,
+cursive;
+$footer-below-background:#ffff11;
+$icon-color:#ccc;
+$b-font:'Caveat Brush',
+cursive;
+$btn-social-background:rgba(0, 0, 0, 0.3);
+$btn-social-color:#fff;
+// css start
 .page-title {
     font-size: 3rem;
     text-align: center;
 }
 
 .img-title {
-    font-family: ‘Gloria Hallelujah’, cursive;
+    font-family: $image-font;
 }
 
 footer {
@@ -28,6 +36,10 @@ footer {
     text-align: center;
 }
 
+.footer-below {
+    background: $footer-below-background;
+}
+
 
 /*navbar list*/
 
@@ -38,7 +50,7 @@ footer {
 }
 
 i {
-    color: #ccc;
+    color: $icon-color;
 }
 
 #home-button {
@@ -57,7 +69,7 @@ i {
 }
 
 #b {
-    font-family: 'Caveat Brush', cursive;
+    font-family: $b-font;
     font-size: 20px;
     font-weight: 500;
 }
@@ -68,8 +80,8 @@ i {
 }
 
 .btn-social {
-    background: rgba(0, 0, 0, 0.3);
-    color: #fff;
+    background: $btn-social-background;
+    color: $btn-social-color;
     display: inline-block;
     border: 1px solid grey;
     border-radius: 50%;
