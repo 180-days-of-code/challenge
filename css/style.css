@@ -32,12 +32,6 @@ footer {
 }
 
 /*navbar list*/
-.navbar .nav {
-  margin: 0 auto;
-  display: inline-block;
-  max-width: 100%;
-}
-
 i {
   color: #ccc;
 }
