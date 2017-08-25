@@ -1,0 +1,25 @@
+.user-view {
+  height: 30vh;
+}
+
+nav {
+  background: #303483;
+}
+
+.page-title {
+  font-size: 3rem;
+}
+
+.about-us {
+  margin-top: 4%;
+}
+
+.about-us-content {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.about-us-page {
+  height: 100vh;
+  background: #ECECF3;
+}
