@@ -1,1 +1,27 @@
+$theme-color:#303483;
+$background-color:#ECECF3;
+.user-view {
+    height: 30vh;
+}
 
+nav {
+    background: $theme-color;
+}
+
+.page-title {
+    font-size: 3rem;
+}
+
+.about-us {
+    margin-top: 4%;
+}
+
+.about-us-content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about-us-page {
+    height: 100vh;
+    background: $background-color;
+}
