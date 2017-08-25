@@ -23,3 +23,24 @@ nav {
   height: 100vh;
   background: #ECECF3;
 }
+
+.profile-row {
+  display: flex;
+}
+
+.profile-card {
+  height: 70vh;
+  width: 20%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 2%;
+}
+
+.img-background {
+  height: 50%;
+}
+
+.img-dimension {
+  width: 100px;
+  margin-top: 10%;
+}
