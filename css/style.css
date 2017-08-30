@@ -6,6 +6,11 @@ nav {
   background: #303483;
 }
 
+a.modal-trigger {
+  font-size: 1.7vmin;
+  max-width: 11%;
+}
+
 .page-title {
   font-size: 3rem;
 }
