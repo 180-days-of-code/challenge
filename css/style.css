@@ -2,6 +2,10 @@
   height: 30vh;
 }
 
+.display-none {
+  display: none;
+}
+
 nav {
   background: #303483;
 }
@@ -48,4 +52,8 @@ a.modal-trigger {
 .img-dimension {
   width: 100px;
   margin-top: 10%;
+}
+
+.full-stack-devs {
+  border: 2px solid green;
 }
