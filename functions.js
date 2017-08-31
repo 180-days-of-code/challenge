@@ -17,8 +17,8 @@ function getQuote() {
         var currentQuote = a[0].content;
         var quoteAuthor = a[0].title;
         console.log(currentQuote, quoteAuthor);
-        $('.quote-start').html("<i class='fa fa-quote-left'></i>");
-        $('.quote-end').html("<i class='fa fa-quote-right'></i>")
+        $('.quote-start').html("<i class='fa fa-quote-left green-text text-lighten-2 fa-2x'></i>");
+        $('.quote-end').html("<i class='fa fa-quote-right green-text text-lighten-2 fa-2x'></i>")
 
         $('.quote').html(currentQuote);
         $('.quote-author').html("-" + quoteAuthor);
