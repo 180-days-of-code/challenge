@@ -49,6 +49,11 @@ a.modal-trigger {
   height: 50%;
 }
 
+.leader-img {
+  height: auto;
+  max-width: 100px;
+}
+
 .img-dimension {
   width: 100px;
   margin-top: 10%;
