@@ -52,12 +52,18 @@ a.modal-trigger {
 
 .card-row {
   display: flex;
-  width: 100%;
+  margin-left: 10%;
+  margin-right: 15%;
 }
 
 .card {
-  min-width: 20%;
+  min-width: 25%;
   height: 40vh;
-  margin: auto;
+  margin: 1px;
   margin-top: 2%;
+}
+
+.card:hover {
+  position: relative;
+  box-shadow: 0px 10px 5px #888888;
 }
