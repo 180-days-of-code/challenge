@@ -27,7 +27,7 @@ a.modal-trigger {
 }
 
 .about-us-page {
-    height: 100vh;
+    height: 100%;
     background: $background-color;
 }
 
@@ -50,4 +50,16 @@ a.modal-trigger {
 .img-dimension {
     width: 100px;
     margin-top: 10%;
+}
+
+.card-row {
+    display: flex;
+    width: 100%;
+}
+
+.card {
+    min-width: 20%;
+    height: 40vh;
+    margin: auto;
+    margin-top: 2%;
 }
