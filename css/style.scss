@@ -1,247 +1,53 @@
-/*center all elements*/
+$theme-color:#303483;
+$background-color:#ECECF3;
+.user-view {
+    height: 30vh;
+}
+
+nav {
+    background: $theme-color;
+}
+
+a.modal-trigger {
+    font-size: 1.7vmin;
+    max-width: 11%;
+}
 
 .page-title {
     font-size: 3rem;
-    text-align: center;
 }
 
-.img-title {
-    font-family: ‘Gloria Hallelujah’, cursive;
+.about-us {
+    margin-top: 4%;
 }
 
-footer {
-    margin-top: 10vh;
-    bottom: 0;
-    width: 100%;
+.about-us-content {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.mid-section {
-    margin-top: 20vh;
+.about-us-page {
+    height: 100vh;
+    background: $background-color;
 }
 
-.quote {
-    font-size: 2rem;
+.profile-row {
+    display: flex;
 }
 
-.quote-box {
-    padding-top: 10vh;
-    text-align: center;
+.profile-card {
+    height: 70vh;
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2%;
 }
 
-
-/*navbar list*/
-
-.navbar .nav {
-    margin: 0 auto;
-    display: inline-block;
-    max-width: 100%;
+.img-background {
+    height: 50%;
 }
 
-i {
-    color: #ccc;
-}
-
-#home-button {
-    margin-left: 10px;
-    border-radius: 50%;
-    padding: 2px;
-    left: 5px;
-    float: left;
-    position: relative;
-}
-
-.mf {
-    min-height: 250px;
-    width: 250px;
-    margin: 0 auto;
-}
-
-#b {
-    font-family: 'Caveat Brush', cursive;
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.container {
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.btn-social {
-    background: rgba(0, 0, 0, 0.3);
-    color: #fff;
-    display: inline-block;
-    border: 1px solid grey;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 28px;
-    line-height: 31px;
-    padding: 4px;
-}
-
-.btn-social {
-    transform: scale(1.2);
-}
-
-.fa-facebook:hover {
-    transform: scale(1.2);
-    color: #3b5998
-}
-
-.fa-twitter:hover {
-    transform: scale(1.2);
-    color: #00b6f1;
-}
-
-.fa-github:hover {
-    transform: scale(1.2);
-    color: #6e5494;
-}
-
-.social-media {
-    margin: 0 auto;
-}
-
-@media only screen and (max-width: 768px) {
-    .mf {
-        min-height: 200px;
-        width: 200px;
-        margin: 0 auto;
-    }
-    .title {
-        text-align: center;
-        font-size: 26px;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .mf {
-        min-height: 150px;
-        width: 150px;
-        margin: 0 auto;
-    }
-    .title {
-        text-align: center;
-        font-size: 22px;
-    }
-}
-
-.leader {
-    background-color: #974B0F;
-    font-size: 30px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.display-none {
-    display: none;
-}
-
-.leader-img {
-    max-width: 60px;
-    border-radius: 50%;
-}
-
-section {
-    margin: 50px;
-}
-
-
-/* for custom scrollbar for webkit browser*/
-
-::-webkit-scrollbar {
-    width: 6px;
-}
-
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-::-webkit-scrollbar-thumb {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-.project-title {
-    padding: 5px 0;
-    color: #ccc;
-}
-
-.project-labels {
-    font-size: 14px;
-    font-weight: 600;
-    display: none;
-}
-
-
-/*footer*/
-
-.footer {
-    font-weight: bold;
-    position: absolute;
-    text-align: center;
-    margin-top: 50px;
-    top: 100%;
-    right: 0;
-    left: 0;
-    bottom: 0;
-}
-
-.container {
-    /*	width: auto;*/
-    min-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div.container {
-    display: block;
-    position: relative;
-    padding: 10px auto;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-#hideshow {
-    color: aliceblue;
-    text-decoration: none;
-}
-
-.profile-pic {
-    width: 45px;
-    height: 45px;
-    border: solid 1px black;
-}
-
-
-/*media queries*/
-
-@media only screen and (max-width: 500px) {
-    .project-title {
-        margin-top: 4px;
-        font-size: 24px;
-    }
-    .project-labels {
-        display: block;
-    }
-    section {
-        margin: 35px;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    .project-title {
-        margin-top: 4px;
-        font-size: 24px;
-    }
-    .project-labels {
-        font-size: 11px;
-        /*	letter-spacing: .05em;  */
-        display: block;
-    }
-    section {
-        margin: 20px;
-    }
+.img-dimension {
+    width: 100px;
+    margin-top: 10%;
 }
