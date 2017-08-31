@@ -4,6 +4,10 @@ $background-color:#ECECF3;
     height: 30vh;
 }
 
+.display-none {
+    display: none;
+}
+
 nav {
     background: $theme-color;
 }
@@ -50,4 +54,8 @@ a.modal-trigger {
 .img-dimension {
     width: 100px;
     margin-top: 10%;
+}
+
+.full-stack-devs {
+    border: 2px solid green;
 }
