@@ -18,7 +18,7 @@ a.modal-trigger {
 }
 
 .page-title {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .about-us {
@@ -63,4 +63,25 @@ a.modal-trigger {
 
 .full-stack-devs {
     border: 2px solid green;
+}
+
+.quote {
+   font-family: 'Shadows Into Light', cursive;
+   font-size: 2rem;
+}
+
+.about-us-content {
+    font-family: 'Raleway', sans-serif;
+    color: $theme-color;
+    font-size: 2rem;
+}
+
+#img1{
+    float: right;
+    width: 50%;
+}
+
+#img2{
+    float: left;
+
 }
