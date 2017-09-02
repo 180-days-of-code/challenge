@@ -5,6 +5,7 @@
     <title>180-Days-Of-Code|Inspirations</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
     <link rel='stylesheet' href='css/style.min.css '>
@@ -13,12 +14,16 @@
 
 <body>
     <div class="about-us-page">
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="learning.html">Learning</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
         <nav>
             <div class="nav-wrapper">
                 <a href="index.html" class="brand-logo">Full Stack Road</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="about_us.html">About Us</a></li>
-                    <li class="active"><a href="#">Inspirations</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Inspirations<i class="material-icons right">arrow_drop_down</i></a></li>
                     <li><a href="leaderboards.html">Leaderboards</a></li>
                     <li><a href="teams.html">Teams</a></li>
                     <li><a href="contributors.html">Contributors</a></li>
@@ -43,12 +48,32 @@
                 <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
             </div>
         </nav>
-        
-       
-    </div><!--  about-us-page  -->
+        <div class="inspirations">
+            <a class="waves-effect waves-light btn">UI/UX</a>
+            <a class="waves-effect waves-light btn">Tribute Pages</a>
+            <a class="waves-effect waves-light btn">button</a>
+            <a class="waves-effect waves-light btn">button</a>
+            <a class="waves-effect waves-light btn">button</a>
+            <a class="waves-effect waves-light btn">button</a>
+            <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+            <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a>
+        </div>
+
+
+    </div>
+    <!--  about-us-page  -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
     <script src='js/index.js'></script>
+<<<<<<< HEAD
+=======
+    <script>
+        $(document).ready(function() {
+            // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+            $('.modal').modal();
+        });
+    </script>
+>>>>>>> ce81c470925b099439aa77ff676b38173c332259
 </body>
 
 </html>

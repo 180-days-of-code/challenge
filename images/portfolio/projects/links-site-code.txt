@@ -1,0 +1,42 @@
+Images found in challenge> images> portfolio> project folder
+
+Calculater
+website: https://ritikpatni.me/Calculator/
+code:  https://github.com/RitikPatni/Calculator
+
+Weather-app
+website: https://anuradhabunu.github.io/weather-app/
+code: https://github.com/anuradhabunu/weather-app
+
+Portfolio
+website: https://ritikpatni.me
+code: https://github.com/RitikPatni/ritikpatni.github.io
+
+Twitch-api
+website: http://www.allentowngroup.com/legendary-octoTwitch/
+code: https://github.com/bobbidigi/legendary-octoTwitch
+
+quote-machine
+website:  https://ritikpatni.me/Quote-Machine_FCC/
+code: https://github.com/RitikPatni/Quote-Machine_FCC
+
+wikipedia-viewer
+website:  http://www.allentowngroup.com/wikipedia-viewer/
+code:  https://github.com/bobbidigi/wikipedia-viewer
+
+css animation
+website: http://clown-roland-41122.netlify.com/burger-pure-css/
+code:   https://github.com/razvanlikespizza/burger-pure-css
+
+Tribute-page
+website:  http://clown-roland-41122.netlify.com/tribute-page/
+code:  https://github.com/razvanlikespizza/tribute-page
+
+website:
+code:
+
+website:
+code:
+
+website:
+code:

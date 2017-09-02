@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>180-Days-Of-Code|About Us</title>
+    <title>180-Days-Of-Code|Projects</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -14,12 +14,16 @@
 
 <body>
     <div class="about-us-page">
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="learning.html">Learning</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
         <nav>
             <div class="nav-wrapper">
                 <a href="index.html" class="brand-logo">Full Stack Road</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li class="active"><a href="#">About Us</a></li>
-                    <li><a href="inspirations.html">Inspirations</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Resources<i class="material-icons right">arrow_drop_down</i></a></li>
                     <li><a href="leaderboards.html">Leaderboards</a></li>
                     <li><a href="teams.html">Teams</a></li>
                     <li><a href="contributors.html">Contributors</a></li>
@@ -42,28 +46,48 @@
                     <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
                 </ul>
                 <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-
-
             </div>
         </nav>
-        <div class="center about-us-content">
-            <div class="mission">
-                <div class=" page-title">MISSION</div>
-                <div class="quote">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        <div class="inspirations center">
+            <div class="nav">
+                <a class="waves-effect waves-light btn">Portfolio</a>
+                <a class="waves-effect waves-light btn">Tribute Pages</a>
+                <a class="waves-effect waves-light btn">Twitch TV</a>
+                <a class="waves-effect waves-light btn">All</a>
+            </div>
+            <div class="inspirations-cards ">
+                <div class="card-row">
+                    <div class="portfolio card ">
+                    </div>
+                    <div class="portfolio card ">
+                    </div>
+                    <div class="portfolio card ">
+                    </div>
+                    <div class="portfolio card ">
+                    </div>
+                </div>
+                <div class="card-row">
+                    <div class="portfolio card ">
+                    </div>
+                    <div class="portfolio card ">
+                    </div>
+                    <div class="portfolio card ">
+                    </div>
+                    <div class="portfolio card ">
+                    </div>
                 </div>
             </div>
-            <div class="about-us">
-                <div class=" page-title">ABOUT US</div>
-                <div class="about-us-content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a nisl dolor. Ut eu tempor ante, in bibendum libero. Etiam gravida libero in odio iaculis, vel hendrerit nunc luctus. Pellentesque sed risus cursus, pharetra turpis nec, suscipit magna.
-                    Vestibulum a nisi eu metus sagittis mattis. Vestibulum velit nunc, vulputate id ultrices id, tempor eu ex. Donec interdum viverra ipsum sit amet feugiat. Aliquam et lacus lectus. Cras porta nisl nisl, sed tristique ligula pulvinar
-                    nec. Curabitur interdum ex nec auctor euismod. Quisque ac dictum nisl. Etiam id nisi porta, pretium urna eget, bibendum elit. Vivamus laoreet nibh libero, vitae cursus mi blandit volutpat.</div>
-            </div>
         </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-    <script src='js/index.js'></script>
+        <!--  about-us-page  -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+        <script src='js/index.js'></script>
+        <script>
+            $(document).ready(function() {
+                // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+                $('.modal').modal();
+            });
+        </script>
 </body>
 
 </html>
