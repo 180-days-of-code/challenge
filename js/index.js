@@ -15,7 +15,6 @@ $("#portfolio").click(function() {
         }
     });
 });
-
 $("#tribute").click(function() {
     $(".inspirationsCards").children("div").each(function() {
         if ($(this).hasClass("tribute")) {
