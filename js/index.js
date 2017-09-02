@@ -104,3 +104,7 @@ $("#icons").click(function() {
 });
 
 $('#textarea1').trigger('autoresize');
+$('.carousel.carousel-slider').carousel({ fullWidth: true });
+$(document).ready(function() {
+    $('.slider').slider();
+});
