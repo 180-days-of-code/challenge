@@ -108,3 +108,6 @@ $('.carousel.carousel-slider').carousel({ fullWidth: true });
 $(document).ready(function() {
     $('.slider').slider();
 });
+$('.image-background').mouseover(function() {
+    $('.link').css("display", "");
+})
