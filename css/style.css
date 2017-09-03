@@ -111,3 +111,8 @@ a:hover span {
     height: auto;
   }
 }
+
+.leader-img {
+  width: 100px;
+  height: 100px;
+}
