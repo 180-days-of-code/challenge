@@ -58,14 +58,15 @@ a.modal-trigger {
 
 .card {
   min-width: 25%;
-  height: 40vh;
-  margin: 1px;
+  height: auto;
+  margin: 2px;
   margin-top: 2%;
 }
 
 .image-background {
+  padding: 1%;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .hire-us-form {
@@ -96,4 +97,17 @@ a span {
 
 a:hover span {
   display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    min-width: 50%;
+    align-self: auto;
+    margin: 2px;
+    margin-top: 2%;
+  }
+  .image-background {
+    width: 100%;
+    height: auto;
+  }
 }
