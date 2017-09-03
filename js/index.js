@@ -66,6 +66,15 @@ $("#js").click(function() {
         }
     });
 });
+$("#js-frameworks").click(function() {
+    $(".learning-links").children("ul").each(function() {
+        if ($(this).hasClass("js-frameworks")) {
+            $(this).css("display", "");
+        } else {
+            $(this).css("display", "none");
+        }
+    });
+});
 $("#UI-UX").click(function() {
     $(".learning-links").children("ul").each(function() {
         if ($(this).hasClass("UI/UX")) {
@@ -93,9 +102,36 @@ $("#css-frameworks").click(function() {
         }
     });
 });
+$("#gitHub").click(function() {
+    $(".learning-links").children("ul").each(function() {
+        if ($(this).hasClass("gitHub")) {
+            $(this).css("display", "");
+        } else {
+            $(this).css("display", "none");
+        }
+    });
+});
+$("#photo-stock").click(function() {
+    $(".learning-links").children("ul").each(function() {
+        if ($(this).hasClass("photo-stock")) {
+            $(this).css("display", "");
+        } else {
+            $(this).css("display", "none");
+        }
+    });
+});
 $("#icons").click(function() {
     $(".learning-links").children("ul").each(function() {
         if ($(this).hasClass("icons")) {
+            $(this).css("display", "");
+        } else {
+            $(this).css("display", "none");
+        }
+    });
+});
+$("#typography").click(function() {
+    $(".learning-links").children("ul").each(function() {
+        if ($(this).hasClass("typography")) {
             $(this).css("display", "");
         } else {
             $(this).css("display", "none");
