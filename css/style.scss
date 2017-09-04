@@ -1,124 +1,125 @@
-    $theme-color:#303483;
-    $background-color:#ECECF3;
-    .user-view {
-        height: 30vh;
+
+$theme-color:#303483;
+$background-color:#ECECF3;
+.user-view {
+    height: 30vh;
+}
+
+nav {
+    background: $theme-color;
+}
+
+a.modal-trigger {
+    font-size: 1.7vmin;
+    max-width: 11%;
+}
+
+.page-title {
+    font-size: 2.5rem;
+}
+
+.about-us {
+    margin-top: 4%;
+}
+
+.about-us-content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about-us-page {
+    min-height: 100vh;
+    background: $background-color;
+}
+
+.profile-row {
+    display: flex;
+}
+
+.profile-card {
+    height: 70vh;
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2%;
+}
+
+.img-background {
+    height: 50%;
+}
+
+.img-dimension {
+    width: 100px;
+    margin-top: 10%;
+}
+
+.card-row {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card {
+    min-width: 25%; // height: 40vh;
+    height: auto;
+    margin: 2px;
+    margin-top: 2%;
+}
+
+.image-background {
+    padding: 1%;
+    width: 100%;
+    height: auto;
+}
+
+.hire-us-form {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider {
+    width: 80vw;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    span {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.6);
+        color: #ddd;
+        padding: auto;
+        padding-top: 20%;
     }
-    
-    nav {
-        background: $theme-color;
+}
+
+a:hover {
+    span {
+        display: block;
     }
-    
-    a.modal-trigger {
-        font-size: 1.7vmin;
-        max-width: 11%;
-    }
-    
-    .page-title {
-        font-size: 3rem;
-    }
-    
-    .about-us {
-        margin-top: 4%;
-    }
-    
-    .about-us-content {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    
-    .about-us-page {
-        min-height: 100vh;
-        background: $background-color;
-    }
-    
-    .profile-row {
-        display: flex;
-    }
-    
-    .profile-card {
-        height: 70vh;
-        width: 20%;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-        margin-top: 2%;
-    }
-    
-    .img-background {
-        height: 50%;
-    }
-    
-    .img-dimension {
-        width: 100px;
-        margin-top: 10%;
-    }
-    
-    .card-row {
-        display: flex;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    
+}
+
+@media only screen and (max-width: 768px) {
     .card {
-        min-width: 25%; // height: 40vh;
-        height: auto;
+        min-width: 50%; // height: 40vh;
+        align-self: auto;
         margin: 2px;
         margin-top: 2%;
     }
-    
     .image-background {
-        padding: 1%;
         width: 100%;
         height: auto;
     }
-    
-    .hire-us-form {
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .slider {
-        width: 80vw;
-        height: 60vh;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    a {
-        span {
-            display: none;
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            background: rgba(0, 0, 0, 0.6);
-            color: #ddd;
-            padding: auto;
-            padding-top: 20%;
-        }
-    }
-    
-    a:hover {
-        span {
-            display: block;
-        }
-    }
-    
-    @media only screen and (max-width: 768px) {
-        .card {
-            min-width: 50%; // height: 40vh;
-            align-self: auto;
-            margin: 2px;
-            margin-top: 2%;
-        }
-        .image-background {
-            width: 100%;
-            height: auto;
-        }
-    }
-    
-    .leader-img {
-        width: 100px;
-        height: 100px;
-    }
+}
+
+.leader-img {
+    width: 100px;
+    height: 100px;
+}
