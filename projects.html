@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>180-Days-Of-Code|Projects</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='css/style.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+</head>
+
+<body>
+    <div class="about-us-page">
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="learning.html">Learning</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">Full Stack Road</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Resources<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="leaderboards.html">Leaderboards</a></li>
+                    <li><a href="teams.html">Teams</a></li>
+                    <li><a href="contributors.html">Contributors</a></li>
+                    <li><a href="hire_us.html">Hire Us</a></li>
+                </ul>
+                <ul id="slide-out" class="side-nav">
+                    <li>
+                        <div class="user-view">
+                            <div class="background">
+                                <img src="images/180-days.jpg">
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                    <li><a href="#!">Second Link</a></li>
+                    <li>
+                        <div class="divider"></div>
+                    </li>
+                    <li><a class="subheader">Subheader</a></li>
+                    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+                </ul>
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        <div class="inspirations center">
+            <div class="nav">
+                <a class="waves-effect waves-light btn portfolio-click" id="portfolio">Portfolio</a>
+                <a class="waves-effect waves-light btn tribute-click" id="tribute">Tribute Pages</a>
+                <a class="waves-effect waves-light btn twitch-click" id="twitch">Twitch TV</a>
+                <a class="waves-effect waves-light btn all-click" id="all">All</a>
+            </div>
+            <div class="inspirationsCards">
+                <div class="tribute card-row">
+                  	
+                   	<a class="card" href="http://clown-roland-41122.netlify.com/tribute-page/">
+                        <img class="image-background" src="images/portfolio/projects/razvan-tribute.png" alt="Tribute">
+                        <span>TRIBUTE</span>
+                    </a>
+                    <a class="card" href="http://www.allentowngroup.com/women-of-ike/">
+                        <img class="image-background" src="images/portfolio/tribute.png" alt="tribute">
+                        <span>TRIBUTE</span>
+                    </a>
+<!--
+                    <a class="card" href="#">
+                        <img class="image-background" src="images/portfolio/cake.png" alt="tribute">
+                        <span>TRIBUTE</span>
+                    </a>
+                    <a class="card" href="#">
+                        <img class="image-background" src="images/portfolio/submarine.png" alt="tribute">
+                        <span>TRIBUTE</span>
+                    </a>
+-->
+                </div>
+                <div class="portfolio card-row">
+                    <a class="card" href="https://ritikpatni.me">
+                        <img class="image-background" src="images/portfolio/projects/ritik-portfolio.png" alt="portfolio">
+                        <span>Portfolio</span>
+                    </a>
+                    <a class="card" href="http://www.allentowngroup.com/about-robert-allen/">
+                        <img class="image-background" src="images/portfolio/fcc-portfolio.png" alt="portfolio">
+                        <span>Portfolio</span>
+                    </a>
+<!--
+                    <a class="card" href="#">
+                        <img class="image-background" src="images/portfolio/cabin.png" alt="portfolio">
+                        <span>Portfolio</span>
+                    </a>
+                    <a class="card" href="#">
+                        <img class="image-background" src="images/portfolio/cake.png" alt="portfolio">
+                        <span>Portfolio</span>
+                    </a>
+-->
+                </div>
+                <div class="twitch card-row">
+                    <a class="card" href="http://www.allentowngroup.com/legendary-octoTwitch/">
+                        <img class="image-background" src="images/portfolio/projects/robert-twitch.png" alt="twitch">
+                        <span>TWITCH</span>
+                    </a>
+<!--
+                    <a class="card" href="#">
+                        <img class="image-background" src="images/portfolio/circus.png" alt="twitch">
+                        <span>TWITCH</span>
+                    </a>
+                    <a class="card" href="#">
+                        <img class="image-background" src="images/portfolio/game.png" alt="twitch">
+                        <span>TWITCH</span>
+                    </a>
+                    <a class="card" href="#">
+                        <img class="image-background" src="images/portfolio/safe.png" alt="twitch">
+                        <span>TWITCH</span>
+                    </a>
+-->
+                </div>
+            </div>
+        </div>
+	</div><!--  about-us-page  -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+        <script src='js/index.js'></script>
+        <script>
+            $(document).ready(function() {
+                // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+                $('.modal').modal();
+            });
+        </script>
+</body>
+
+</html>
