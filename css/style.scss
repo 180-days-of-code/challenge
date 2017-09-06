@@ -124,6 +124,7 @@ a:hover {
     width: 100px;
     height: 100px;
 }
+<<<<<<< HEAD
 =======
  $theme-color:#303483;
  $background-color:#ECECF3;
@@ -259,3 +260,12 @@ a:hover {
      background: #B3B5D1;
  }
 >>>>>>> Stashed changes
+=======
+
+.socmed {
+transition: all .2s ease-in-out;
+    &:hover{
+        transform: scale(1.6)
+    }
+}
+>>>>>>> gh-pages
