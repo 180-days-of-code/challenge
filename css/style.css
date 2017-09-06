@@ -116,3 +116,12 @@ a:hover span {
   width: 100px;
   height: 100px;
 }
+
+.quote {
+  font-size: 1.3rem;
+}
+
+.quote-box {
+  min-height: 20vh;
+  background: #B3B5D1;
+}
