@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 
 $theme-color:#303483;
 $background-color:#ECECF3;
@@ -19,9 +19,6 @@ a.modal-trigger {
     font-size: 2.5rem;
 }
 
-.about-us {
-    margin-top: 4%;
-}
 
 .about-us-content {
     margin-left: 10%;
@@ -124,8 +121,7 @@ a:hover {
     width: 100px;
     height: 100px;
 }
-<<<<<<< HEAD
-=======
+
  $theme-color:#303483;
  $background-color:#ECECF3;
  .user-view {
@@ -143,11 +139,19 @@ a:hover {
  
  .page-title {
      font-size: 3rem;
+     animation-delay: .25s;
+     font-family: 'Indie Flower', cursive;
  }
  
  .about-us {
-     margin-top: 4%;
- }
+    margin-top: 4%;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+    box-shadow: 10px 10px 5px #888888;
+}
+ 
  
  .about-us-content {
      margin-left: 10%;
@@ -253,14 +257,21 @@ a:hover {
  
  .quote {
      font-size: 1.3rem;
+     animation-delay: .75s;
+    font-family: 'Raleway';
+       font-weight: bold;
  }
  
  .quote-box {
      min-height: 20vh;
      background: #B3B5D1;
  }
->>>>>>> Stashed changes
-=======
+ .about-us-content{
+    font-size: 1.2rem;
+    animation-delay: .75s;
+    font-family: 'Raleway';
+       font-weight: bold;
+}
 
 .socmed {
 transition: all .2s ease-in-out;
@@ -268,4 +279,15 @@ transition: all .2s ease-in-out;
         transform: scale(1.6)
     }
 }
->>>>>>> gh-pages
+.mission {
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+
+
