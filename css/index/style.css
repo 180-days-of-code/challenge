@@ -4,3 +4,68 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+
+html, body {
+  height: 100%;
+  font-size: 16px;
+}
+
+/* EDIT <a> TAGZ */
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: darkslategrey;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
+/* STYLING START HERE BITC*ES*/
+.overlay {
+  background: radial-gradient(circle, #2ecc71, #0f512a);
+  min-height: 100vh;
+  min-width: 100vw;
+  z-index: 2;
+  opacity: 0.85;
+}
+
+.background {
+  position: relative;
+  background: url(../../images/index/background.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vw;
+  z-index: 1;
+}
+
+.title {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  color: white;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+}
+
+/* NAVBAR */
+.li-nav {
+  display: inline-block;
+  text-transform: uppercase;
+}
