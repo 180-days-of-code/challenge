@@ -5,9 +5,12 @@ $background-color:#ECECF3;
 .user-view {
     height: 30vh;
 }
-
-nav {
-    background: $theme-color;
+.brand-logo{
+    font-size: 2.0rem;
+}
+.grey-text {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;   
 }
 
 a.modal-trigger {
@@ -27,7 +30,7 @@ a.modal-trigger {
 
 .about-us-page {
     min-height: 100vh;
-    background: $background-color;
+    background: #B3B5D1;
 }
 
 .profile-row {
@@ -125,22 +128,22 @@ a:hover {
  $theme-color:#303483;
  $background-color:#ECECF3;
  .user-view {
-     height: 30vh;
+    height: 30vh;
  }
  
  nav {
-     background: $theme-color;
+    background: $theme-color;
  }
  
  a.modal-trigger {
-     font-size: 1.7vmin;
-     max-width: 11%;
+    font-size: 1.7vmin;
+    max-width: 11%;
  }
  
  .page-title {
-     font-size: 3rem;
-     animation-delay: .25s;
-     font-family: 'Indie Flower', cursive;
+    font-size: 3rem;
+    animation-delay: .25s;
+    font-family: 'Indie Flower', cursive;
  }
  
  .about-us {
@@ -210,10 +213,11 @@ a:hover {
  }
  
  .slider {
-     width: 80vw;
+     width: 60vw;
      height: 60vh;
      margin-left: auto;
      margin-right: auto;
+     margin-top: 1.2rem;
  }
  
  a {
@@ -256,21 +260,23 @@ a:hover {
  }
  
  .quote {
-     font-size: 1.3rem;
-     animation-delay: .5s;
+    font-size: 1.3rem;
+    animation-delay: .5s;
     font-family: 'Raleway';
-       font-weight: bold;
+    font-weight: bold;
  }
  
  .quote-box {
-     min-height: 20vh;
-     background: #B3B5D1;
+    min-height: 20vh;
+    background: #B3B5D1;
+    margin-top: 1.2rem;
+
  }
  .about-us-content{
     font-size: 1.2rem;
     animation-delay: .75s;
     font-family: 'Raleway';
-       font-weight: bold;
+    font-weight: bold;
 }
 
 .socmed {
@@ -289,5 +295,18 @@ transition: all .2s ease-in-out;
     box-shadow: 10px 10px 5px #888888;
 
 }
+#brand-logo {
+    font-family: 'Gloria Hallelujah';
+    font-size: 3.5rem;
+}
 
+.responsive-img {
+    margin-top: 1.2rem;
+    box-shadow: 10px 10px 5px #888888;
+    width: 50%;
+    border-radius: 10%;
+}
 
+.text {
+  font-family: 'Gloria Hallelujah';  
+}
