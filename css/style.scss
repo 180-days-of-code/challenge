@@ -80,10 +80,9 @@ a.modal-trigger {
 }
 
 .slider {
-    width: 80vw;
-    height: 60vh;
-    margin-left: auto;
-    margin-right: auto;
+    width: 75vh;
+    margin-left: 55rem;
+    border-radius: 25px;
 }
 
 a {
@@ -212,13 +211,6 @@ a:hover {
      margin-right: auto;
  }
  
- .slider {
-     width: 60vw;
-     height: 60vh;
-     margin-left: auto;
-     margin-right: auto;
-     margin-top: 1.2rem;
- }
  
  a {
      span {
@@ -304,9 +296,20 @@ transition: all .2s ease-in-out;
     margin-top: 1.2rem;
     box-shadow: 10px 10px 5px #888888;
     width: 50%;
-    border-radius: 10%;
+    border-radius: 15%;
 }
 
 .text {
   font-family: 'Gloria Hallelujah';  
 }
+
+.social-icons {
+
+    li {
+        display: inline-block;
+        margin: auto;
+        width: 10%;
+        padding-top: 2rem;
+
+    }
+}   
