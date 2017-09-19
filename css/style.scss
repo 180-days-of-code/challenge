@@ -1,16 +1,16 @@
-
-
 $theme-color:#303483;
 $background-color:#ECECF3;
 .user-view {
     height: 30vh;
 }
-.brand-logo{
+
+.brand-logo {
     font-size: 2.0rem;
 }
+
 .grey-text {
     font-family: 'Indie Flower', cursive;
-    font-size: 1.5rem;   
+    font-size: 1.5rem;
 }
 
 a.modal-trigger {
@@ -23,15 +23,6 @@ a.modal-trigger {
 }
 
 
-.about-us-content {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.about-us-page {
-    min-height: 100vh;
-    background: #B3B5D1;
-}
 
 .profile-row {
     display: flex;
@@ -80,9 +71,8 @@ a.modal-trigger {
 }
 
 .slider {
-    width: 75vh;
+    width: 100vh;
     margin-left: 55rem;
-    border-radius: 25px;
 }
 
 a {
@@ -124,28 +114,28 @@ a:hover {
     height: 100px;
 }
 
- $theme-color:#303483;
- $background-color:#ECECF3;
- .user-view {
+$theme-color:#303483;
+$background-color:#ECECF3;
+.user-view {
     height: 30vh;
- }
- 
- nav {
+}
+
+nav {
     background: $theme-color;
- }
- 
- a.modal-trigger {
+}
+
+a.modal-trigger {
     font-size: 1.7vmin;
     max-width: 11%;
- }
- 
- .page-title {
+}
+
+.page-title {
     font-size: 3rem;
     animation-delay: .25s;
     font-family: 'Indie Flower', cursive;
- }
- 
- .about-us {
+}
+
+.about-us {
     margin-top: 4%;
     background-color: white;
     width: 60%;
@@ -153,118 +143,119 @@ a:hover {
     padding: 2%;
     box-shadow: 10px 10px 5px #888888;
 }
- 
- 
- .about-us-content {
-     margin-left: 10%;
-     margin-right: 10%;
- }
- 
- .about-us-page {
-     min-height: 100vh;
-     background: $background-color;
- }
- 
- .profile-row {
-     display: flex;
- }
- 
- .profile-card {
-     height: 70vh;
-     width: 20%;
-     margin-left: 2.5%;
-     margin-right: 2.5%;
-     margin-top: 2%;
- }
- 
- .img-background {
-     height: 50%;
- }
- 
- .img-dimension {
-     width: 100px;
-     margin-top: 10%;
- }
- 
- .card-row {
-     display: flex;
-     margin-left: 5%;
-     margin-right: 5%;
- }
- 
- .card {
-     min-width: 25%; // height: 40vh;
-     height: auto;
-     margin: 2px;
-     margin-top: 2%;
- }
- 
- .image-background {
-     padding: 1%;
-     width: 100%;
-     height: auto;
- }
- 
- .hire-us-form {
-     width: 70%;
-     margin-left: auto;
-     margin-right: auto;
- }
- 
- 
- a {
-     span {
-         display: none;
-         position: absolute;
-         top: 0;
-         left: 0;
-         bottom: 0;
-         right: 0;
-         background: rgba(0, 0, 0, 0.6);
-         color: #ddd;
-         padding: auto;
-         padding-top: 20%;
-     }
- }
- 
- a:hover {
-     span {
-         display: block;
-     }
- }
- 
- @media only screen and (max-width: 768px) {
-     .card {
-         min-width: 50%; // height: 40vh;
-         align-self: auto;
-         margin: 2px;
-         margin-top: 2%;
-     }
-     .image-background {
-         width: 100%;
-         height: auto;
-     }
- }
- 
- .leader-img {
-     width: 100px;
-     height: 100px;
- }
- 
- .quote {
+
+
+.about-us-content {
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.about-us-page {
+    min-height: 100vh;
+    background: $background-color;
+    min-height: 100vh;
+}
+
+.profile-row {
+    display: flex;
+}
+
+.profile-card {
+    height: 70vh;
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2%;
+}
+
+.img-background {
+    height: 50%;
+}
+
+.img-dimension {
+    width: 100px;
+    margin-top: 10%;
+}
+
+.card-row {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card {
+    min-width: 25%; // height: 40vh;
+    height: auto;
+    margin: 2px;
+    margin-top: 2%;
+}
+
+.image-background {
+    padding: 1%;
+    width: 100%;
+    height: auto;
+}
+
+.hire-us-form {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+a {
+    span {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.6);
+        color: #ddd;
+        padding: auto;
+        padding-top: 20%;
+    }
+}
+
+a:hover {
+    span {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        min-width: 50%; // height: 40vh;
+        align-self: auto;
+        margin: 2px;
+        margin-top: 2%;
+    }
+    .image-background {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.leader-img {
+    width: 100px;
+    height: 100px;
+}
+
+.quote {
     font-size: 1.3rem;
     animation-delay: .5s;
     font-family: 'Raleway';
     font-weight: bold;
- }
- 
- .quote-box {
+}
+
+.quote-box {
     min-height: 20vh;
     background: #B3B5D1;
-    margin-top: 1.2rem;
+}
 
- }
- .about-us-content{
+.about-us-content {
     font-size: 1.2rem;
     animation-delay: .75s;
     font-family: 'Raleway';
@@ -272,11 +263,12 @@ a:hover {
 }
 
 .socmed {
-transition: all .2s ease-in-out;
-    &:hover{
+    transition: all .2s ease-in-out;
+    &:hover {
         transform: scale(1.6)
     }
 }
+
 .mission {
     background-color: white;
     width: 40%;
@@ -285,8 +277,8 @@ transition: all .2s ease-in-out;
     margin-top: 2%;
     margin-bottom: 2%;
     box-shadow: 10px 10px 5px #888888;
-
 }
+
 #brand-logo {
     font-family: 'Gloria Hallelujah';
     font-size: 3.5rem;
@@ -300,7 +292,7 @@ transition: all .2s ease-in-out;
 }
 
 .text {
-  font-family: 'Gloria Hallelujah';  
+    font-family: 'Gloria Hallelujah';
 }
 
 .social-icons {
@@ -310,6 +302,5 @@ transition: all .2s ease-in-out;
         margin: auto;
         width: 10%;
         padding-top: 2rem;
-
     }
-}   
+}
