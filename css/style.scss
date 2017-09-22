@@ -255,8 +255,8 @@ padding-top: 5px;
 }
 
 .quote-box {
-border: 6px solid #808080;
-background-color: #FCFCFC;
+border: 6px solid $background-color ;
+background-color: $background-color ;
 width: 50%;
 height: 150px;
 display: flex;
