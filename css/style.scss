@@ -246,16 +246,18 @@ a:hover {
 .quote {
     font-size: 1.3rem;
     animation-delay: .5s;
-    font-family: 'Raleway';
+    font-family: 'Lobster', cursive;
     font-weight: bold;
 }
 
 .quote-box {
-    min-height: 20vh;
-    background: $background-color;
-    float: left;
-    width: 20%;
-    height: 1100px;
+border: 6px solid #808080;
+background-color: #FCFCFC;
+width: 60%;
+height: 200px;
+display: flex;
+margin: auto;
+
 }
 
 .about-us-content {
@@ -290,8 +292,8 @@ a:hover {
 .responsive-img {
     margin-top: 2.2rem;
     box-shadow: 10px 10px 5px #888888;
-    width: 40%;
     border-radius: 15%;
+    width: 80%;
 
 }
 
@@ -302,13 +304,23 @@ a:hover {
 .social-icons {
 
     li {
-        display: inline-block;
-        margin: auto;
+        display: inline-flex;
+        justify-content: center;
         width: 25%;
-        padding-top: 2rem;
+        padding-top: 5rem;
     }
 }
 
 .mid-section {
- padding-left: 40%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-evenly;
 }
+.child{
+    width: 30%;
+    }
+
+    
