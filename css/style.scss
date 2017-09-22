@@ -242,19 +242,23 @@ a:hover {
     width: 100px;
     height: 100px;
 }
-
+.quote-author {
+font-family: 'Pacifico', cursive;
+padding-top: 5px;
+}
 .quote {
     font-size: 1.3rem;
     animation-delay: .5s;
     font-family: 'Lobster', cursive;
     font-weight: bold;
+    margin: auto;
 }
 
 .quote-box {
 border: 6px solid #808080;
 background-color: #FCFCFC;
-width: 60%;
-height: 200px;
+width: 50%;
+height: 150px;
 display: flex;
 margin: auto;
 
