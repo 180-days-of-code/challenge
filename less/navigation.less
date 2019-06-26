@@ -1,0 +1,41 @@
+// Navigation code here
+.nav-container{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    a{
+        text-decoration: none;
+        
+    }
+    h1{
+        transition: color 1.5s ease;
+        font-size: 3.5rem;
+        padding: 2rem 0;
+    }
+    h1:hover{
+        .navHover();
+    }
+    nav{
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        padding: 1rem;
+        @media @mobile{
+            width: 90%;
+        }
+        a{
+            color: #666;
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: color 1.5s ease;
+        }
+         a:hover {
+             .navHover();
+         }
+    }
+}
